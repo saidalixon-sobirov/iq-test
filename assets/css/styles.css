@@ -1,0 +1,137 @@
+html{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*,*:before, *:after
+{
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+}
+.clearfix:after,.clearfix:before {
+	content: "";
+	display: table;
+}
+	.clearfix:after {
+
+		clear: both;
+	}
+
+
+
+body, html{
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(60deg, #3746a3, #47108b); 
+    background: -webkit-linear-gradient(60deg, #3746a3, #47108b); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(60deg, #3746a3, #47108b); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(60deg, #3746a3, #47108b); /* For Firefox 3.6 to 15 */
+    width: 100%;
+    height: 100vh;
+    font-family:  sans-serif;
+}
+
+.container-fluid{
+        padding-top: 30px;
+    }
+
+.card{
+    max-width: 80%;
+    background: -webkit-linear-gradient(60deg, #45108a, #12054e); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(60deg, #45108a, #12054e); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(60deg, #45108a, #12054e); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(60deg, #45108a, #12054e);   
+    box-shadow: 2px 2px 20px 5px rgba(255,255,255, .3);
+    margin: 0 auto;
+    padding: 10px 40px;
+    border-radius: 30px;
+}
+
+.logo-block{
+    float: left;
+    padding: 10px;
+    color: #c211a1;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 28px;
+
+
+}
+
+nav{
+	width: 100%;
+}
+
+nav ul{
+
+	list-style: none;
+	overflow: hidden;
+	color: #926cb3;
+	padding: 0;
+	text-align: right;
+	margin: 0;
+}
+
+nav ul li{
+	display: inline-block;
+	padding: 15px;
+}
+
+nav ul li a:hover{
+    transition: all 0.5s ease;
+    border-bottom: 1px solid #fff;
+color: blue;
+
+
+
+}
+
+nav ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	color: #926cb3;
+}
+
+h1, p{
+    color: #FFF;
+}
+
+.left-side{
+    margin-top: 60px;
+    width: 30%;
+    float: left;
+}
+
+.right{
+    float: right;
+    width: 70%;
+     background-size: cover;
+    
+}
+
+.right img{
+    width: 70%;
+    margin-left: 120px;
+    }
+
+.get-start{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    padding: 10px;
+    background: linear-gradient(90deg, #bd0e86, #7c1dc9); 
+    color: #fff;
+    border-radius: 30px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    box-shadow: 1px 1px 8px 1px rgba(255,255,255,.6);
+}
+.get-start:hover{ 
+     box-shadow: 2px 2px 12px 2px rgba(255,255,255,.9);
+}
+
+.get{
+    margin: 100px 10px 10px 10px;
+}
